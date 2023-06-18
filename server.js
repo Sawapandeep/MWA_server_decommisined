@@ -3,7 +3,7 @@ const cors = require('cors');
 const multer = require('multer');
 const { exec } = require('child_process');
 const admin = require('firebase-admin');
-const serviceAccount = require('./test-36b79- firebase-adminsdk-487iv-5db9fde848.json'); // Replace with your own service account key file
+const serviceAccount = require('./malware-analysis-7dadc-firebase-adminsdk-10hif-374b436713.json'); // Replace with your own service account key file
 
 const upload = multer({ dest: 'uploads/', limits: {
   fileSize: 1000000 // set the maximum file size (in bytes)
@@ -12,7 +12,7 @@ const upload = multer({ dest: 'uploads/', limits: {
 // Initialize Firebase admin SDK
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: 'https://test-36b79-default-rtdb.firebaseio.com'
+  databaseURL: 'https://malware-analysis-7dadc-default-rtdb.firebaseio.com/'
 });
 
 const app = express();
