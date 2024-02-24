@@ -1,7 +1,7 @@
 # MWA_server
 <!---For windows only --->
 # Installation process
-After Downloading ClamAV.msi from official website,installed it and then to run it on windows head to installation folder.
+After Downloading [ClamAV.msi](https://codepen.io/ecemgo/details/WNmWVqb) from official website,installed it and then to run it on windows head to installation folder.
 >Enter  conf_examples folder  
 >Remove the .sample from the file names by renaming them.
 
